@@ -18,31 +18,31 @@ body {
 }
 
 .profil {
-  width : 250px;
+  width: 250px;
   background-color: #31363b;
-  color : whitesmoke;
-  box-shadow : 1px 1px 4px #31363b; 
+  color: whitesmoke;
+  box-shadow: 1px 1px 4px #31363b; 
 }
 
 .hlavicka{
   position: relative;
 }
 .foto{
-  width : 250px;
+  width: 100%;
 }
 .logo{
-  position : absolute;
+  position: absolute;
   background-color: #b92e81;
   border-radius: 50%;
-  left: 180px;
-  top: 140px;
-  box-shadow : 1px 1px 1px 1px #31363b; 
+  right: 40px;
+  bottom: -25px;
+  box-shadow: 1px 1px 1px 1px #31363b; 
 }
 
 .obsah {
   font-family: 'Source Sans Pro';
   font-size: 0.9em;
-  padding : 15px;
+  padding: 15px;
 }
 .obsah h1 {
   font-family: 'Montserrat' ;
@@ -51,15 +51,14 @@ body {
 }
 
 .odkazy {
-  padding:0;
-  background-color: #31363b;
-  margin:0;
+  padding: 0;
+  margin: 0;
  }
 .odkazy li{
   display: inline-block;
 }
 .odkazy a{
-   color : whitesmoke;
+   color: whitesmoke;
    text-decoration: none;
    padding: 1em;
    display: block;
@@ -70,7 +69,7 @@ body {
 }
 
 .odkazy li.portfolio {
-  width : 250px;
+  width: 100%;
   border-top: 1px solid #3f464d;
   border-bottom: 1px solid #3f464d;
 }
@@ -80,7 +79,7 @@ body {
 }
 
 .odkazy li.facebook {
-  width : 50%;
+  width: 50%;
   border-right: 1px solid #3f464d;
 }
 .facebook a:hover,
@@ -89,7 +88,7 @@ body {
 }
 
 .odkazy li.twitter {
-  width : 50%;
+  width: 50%;
 }
  .twitter a:hover,
  .twitter a:focus {
